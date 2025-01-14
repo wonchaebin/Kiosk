@@ -23,7 +23,7 @@ public class Main {
             System.out.println("4. Hamburger");
             System.out.println("0. 종료");
 
-            System.out.print("원하는 메뉴를 선택하세요. : ");
+            System.out.print("원하시는 메뉴를 선택하세요. : ");
             choice = scanner.nextInt();
             switch (choice) {
                 case 1:
