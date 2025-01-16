@@ -1,9 +1,9 @@
-package org.example.kiosk2;
+package org.example.kiosk3;
 
 public class MenuItem {
-    private String name; //이름 저장 변수
-    private double price; //가격 저장 변수
-    private String description; //메뉴 설명 저장 변수
+    private String name;
+    private double price;
+    private String description;
 
     public MenuItem(String name, double price, String description) {
         this.name = name;
