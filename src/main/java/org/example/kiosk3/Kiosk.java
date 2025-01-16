@@ -50,7 +50,7 @@ public class Kiosk {
                     break;
 
             }
-        } while (choice != 0);
+        } while (true);
     }
 
     private boolean choiceBackorExit(Scanner scanner) {
