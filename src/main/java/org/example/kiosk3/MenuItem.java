@@ -11,6 +11,10 @@ public class MenuItem {
         this.description = description;
     }
 
+    public String toString() {
+        return "메뉴이름 : " + name + ", 가격 : " + price + "원, 설명 : " + description;
+    }
+
     public String getName() {
         return name;
     }
