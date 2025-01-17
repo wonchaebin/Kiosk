@@ -26,7 +26,6 @@ public class Menu {
         return menuItems;
     }
 
-    //메뉴 항목 추가 메서드
     public void addMenuItem(MenuItem item) {
         menuItems.add(item);
     }

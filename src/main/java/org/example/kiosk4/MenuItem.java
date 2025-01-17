@@ -29,7 +29,6 @@
         public double getPrice() {
             return price;
         }
-
         //Getter : 메뉴 설명 반환
         public String getDescription() {
             return description;
