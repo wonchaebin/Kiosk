@@ -1,5 +1,5 @@
 
-    package org.example.kiosk4;
+    package org.example.kiosk5;
 
     //메뉴 항목 클래스
     public class MenuItem {
