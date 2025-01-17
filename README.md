@@ -1,3 +1,4 @@
+###Kiosk Lv2
 kiosk lv2 작업 중 switch문에 items 요소들을 get하면서 오류 발생
 ->컴퓨터는 0을 1로 인식하는데 첫 번째 get()에 get(0)이 아닌 get(1)을 입력함->수정 완료
 
