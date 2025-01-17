@@ -49,7 +49,7 @@ import java.util.Scanner;
 
             private void subMenu(Scanner scanner, Menu menu) {
                 while (true) {
-                    System.out.println("[" + menu.getName() + " MENU]");
+                    System.out.println("\n[ " + menu.getName() + " MENU ]");
                     menu.displayItems();
                     System.out.println("0. 뒤로가기");
 
