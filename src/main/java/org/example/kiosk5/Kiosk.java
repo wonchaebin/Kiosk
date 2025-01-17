@@ -66,7 +66,7 @@ import java.util.Scanner;
                     } else if (subChoice > 0 && subChoice <= menu.getMenuItems().size()) { //선택한 메뉴 항목 세부 정보 출력
                         //메뉴 항목 가져오기
                         MenuItem selectedItem = menu.getMenuItems().get(subChoice - 1);
-                        System.out.println("선택한 메뉴 : " + selectedItem.getName() + " | " + selectedItem.getDescription() + " | " + selectedItem.getPrice() + " | " + selectedItem.getDescription());
+                        System.out.println("선택한 메뉴 : " + selectedItem.getName());
                     } else {
                         System.out.println("올바른 번호를 입력하세요."); //잘못된 번호 입력 시
                     }

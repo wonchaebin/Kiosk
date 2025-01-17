@@ -21,7 +21,6 @@ public class Kiosk {
 
         //do-while문으로 메뉴 선택 계속 반복
         do {
-            System.out.println("키오스크가 시작됩니다.");
             System.out.println("[ SHAKESHACK MENU ]");
             System.out.println("1. ShackBurger");
             System.out.println("2. SmokeShack");
