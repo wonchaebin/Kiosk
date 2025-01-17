@@ -1,6 +1,30 @@
-###Kiosk Lv2
-kiosk lv2 작업 중 switch문에 items 요소들을 get하면서 오류 발생
-->컴퓨터는 0을 1로 인식하는데 첫 번째 get()에 get(0)이 아닌 get(1)을 입력함->수정 완료
+# CH2 키오스크 과제
 
-kiosk lv2 코드를 실행시키니 메뉴이름과 가격, 설명이 붙어서 나와 띄어쓰기(\t)추가해줌
-+ 한 줄로 출력되는게 가독성이 떨어져서 이름과 가격은 함께 출력, 설명은 그 다음 줄에 출력되도록 수정함
+## 1. 키오스크 Lv1.
+### 🔎기능
+#### 햄버거 메뉴 출력 및 선택하기
+- Scanner를 사용하여 여러 햄버거 메뉴 출력
+- 제시된 메뉴 중 입력받은 숫자에 따라 다른 로직 실행
+- 반복문 이용해 특정 번호(0) 입력 시 프로그램 종료
+
+### ✔️기능 설명
+
+- 콘솔창에 여러 햄버거 메뉴 출력
+  
+![image](https://github.com/user-attachments/assets/f293f601-8b3f-4a9a-8578-2c811e29ff72)
+
+
+- 입력받은 숫자에 따라 다른 로직 실행
+  
+![image](https://github.com/user-attachments/assets/67fca870-53c5-44f3-a80f-e69edda69d9d)
+
+- 반복문 이용하여 특정 숫자(0) 입력 전 까지 프로그램 반복
+
+![image](https://github.com/user-attachments/assets/e145789a-e2f3-492f-b98f-5258cc583410)
+
+- 특정 숫자(0) 입력 시 프로그램 종료
+
+![image](https://github.com/user-attachments/assets/88028d2c-9d47-4678-9cbe-0b71caf53dc6)
+
+
+
